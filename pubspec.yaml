@@ -1,0 +1,77 @@
+name: mood_tracker
+description: "A new Flutter project."
+publish_to: 'none'
+
+version: 1.0.0+1
+
+environment:
+  sdk: '>=3.4.3 <4.0.0'
+
+dependencies:
+  flutter:
+    sdk: flutter
+  image_picker: ^0.8.5+3
+  cupertino_icons: ^1.0.6
+  table_calendar: ^3.0.0
+  sqflite: ^2.0.0+4
+  path_provider: ^2.0.11
+  csv: ^6.0.0
+  shared_preferences: ^2.0.13
+  intl: ^0.17.0
+  charts_flutter: ^0.12.0
+  fl_chart: ^0.69.0
+  mockito: ^5.4.4
+  test: ^1.16.8
+  postgres: ^2.3.2
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+  flutter_lints: ^5.0.0
+
+flutter:
+  uses-material-design: true
+
+  assets:
+    - assets/imag1.jpg
+    - assets/imag0.jpg
+    - assets/imag2.jpg
+    - assets/imag3.jpg
+    - assets/imag4.jpg
+    - assets/calm.jpg
+    - assets/happy.jpg
+    - assets/excited.jpg
+    - assets/cheerful.jpg
+    - assets/in_love.jpg
+    - assets/friendly.jpg
+    - assets/shocked.jpg
+    - assets/singing.jpg
+    - assets/speachless.jpg
+    - assets/confused.jpg
+    - assets/nervous.jpg
+    - assets/crying.jpg
+    - assets/stressed.jpg
+    - assets/lonely.jpg
+    - assets/sad.jpg
+    - assets/unbothered.jpg
+    - assets/anxious.jpg
+    - assets/annoyed.jpg
+    - assets/angry.jpg
+    - assets/sick.jpg
+    - assets/unfocussed.jpg
+    - assets/disoriented.jpg
+    - assets/sleepy.jpg
+    - assets/proud.jpg
+    - assets/em1.jpg
+    - assets/em2.jpg
+    - assets/em3.jpg
+    - assets/em4.jpg
+    - assets/em5.jpg
+    - assets/p1.jpg
+    - assets/p2.jpg
+    - assets/p3.jpg
+    - assets/p4.jpg
+    - assets/w1.jpg
+    - assets/w2.jpg
+    - assets/w3.jpg
+    - assets/w4.jpg
